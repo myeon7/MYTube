@@ -17,4 +17,5 @@ const VideoDetail = ({ video, video: { snippet }}) => (
          <pre className={styles.description}>{snippet.description}</pre>
     </section>
 ); 
+
 export default VideoDetail;
