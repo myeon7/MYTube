@@ -19,7 +19,7 @@ const SearchHeader = ({ onSearch }) => {
     
     return (
         <header className={styles.header}>
-            <div className={styles.logo}>
+            <div className={styles.logo} onClick={onClick}>
                 <img className={styles.img} src="./logo.png" alt="logo"/>
                 <h1 className={styles.title}>MYTube</h1>
             </div>
